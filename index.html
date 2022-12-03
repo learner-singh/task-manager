@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styleSheets/style.css">
+    <script src="./scripts/model.js"></script>
+    <script src="./scripts/controller.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <img src="./images/logo.png" alt="Logo">
+        <span>Task Manager CRUD</span>
+    </nav>
+
+    <div id="container">
+        <div id="input-box">
+            <!-- <div>
+                <label for="title-box">Task Title</label>
+                <input type="text" placeholder="Title here.." id="title-box"> 
+            </div>
+            <div>
+                <label for="description-box">Description</label>
+                <textarea name="description" id="description-box" cols="30" rows="10"></textarea>
+            </div> -->
+            <h3>Task Title</h3>
+            <input type="text" placeholder="Title here.." id="title-box" class="box">
+            <h3>Description</h3>
+            <textarea name="description" id="description-box" class="box" cols="30" rows="10"
+                placeholder="Description here.."></textarea>
+        </div>
+
+
+        <div class=".row" id="button">
+            <button id="add-btn">Add Task</button>
+            <button id="delete-btn">Delete Task</button>
+            <button id="update-btn">Update Task</button>
+            <button>Sort Task</button>
+            <button>Load Task</button>
+            <button>Save Task</button>
+        </div>
+
+        <div id="grid-table">
+            <!-- <table>
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>description</th>
+                    <th>date</th>
+                    <th>Select</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>movie</th>
+                    <th>watch movie on amazon prime</th>
+                    <th>fri 232545 435 35</th>
+                    <th>Select</th>
+                </tr>
+
+                
+            </table> -->
+            <!-- <div id="grid">
+                <div class="row grid-head">
+                    <div class="id grid-item ">ID</div>
+                    <div class="title grid-item">TITLE</div>
+                    <div class="desc grid-item">DESCRIPTION</div>
+                    <div class="date grid-item">DATE</div>
+                    <div class="select grid-item">SELECT</div>
+                </div>
+                <div class="grid-body">
+                    <div class="row">
+                        <div class="id grid-item">ID</div>
+                        <div class="title grid-item">TITLEknb;lkv</div>
+                        <div class="desc grid-item">DESCRIPTION</div>
+                        <div class="date grid-item">DATE</div>
+                        <div class="select grid-item">SELECT</div>
+                    </div>
+                    <div class="row">
+                        <div class="id grid-item">ID</div>
+                        <div class="title grid-item">TITLE</div>
+                        <div class="desc grid-item">DESCRIPTION</div>
+                        <div class="date grid-item">DATE</div>
+                        <div class="select grid-item">SELECT</div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+</body>
+
+</html>
